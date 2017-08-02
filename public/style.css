@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.guessBox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  /*margin-left: 340px;*/
+}
+
+.letters {
+  display: flex;
+  justify-content: center;
+}

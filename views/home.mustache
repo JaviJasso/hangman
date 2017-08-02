@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="title">
+    <h4>Mystery Word</h4>
+    <h4>You have {{}}guesses left</h4>
+  </div>
+  <div class="word">
+    <h1>{{mysteryWord}}</h1>
+  </div>
+  <div class="guessBox">
+    <form class="" action="/attempt" method="post">
+          <input type="text" name="letter" value="" placeholder="Guess a letter">
+          <button type="submit" name="button">Make a Guess</button>
+    </form>
+  </div>
+  <div class="letters">
+    <p>Letters guessed:{{guessedLetters}}</p>
+  </div>
+ Lets see if this works! {{attemptedLetter}}
+  </body>
+</html>
